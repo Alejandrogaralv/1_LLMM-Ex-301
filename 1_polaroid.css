@@ -29,13 +29,36 @@ body{
     animation-timing-function: linear;
 }
 .tarjeta:hover{
-    transform: scale(1.2);
+    transform: scale(2), rotate(0);
 
 }
 .tarjeta:hover .imagen{
     background-color: transparent;
     background-size: cover;
     background-image:url(./0_recursos/1_good-old-rick.gif);
+    
+}
+.tarjeta:nth-child(2) .imagen{
+    animation-delay:1s;
+}
+.tarjeta:nth-child(3) .imagen {
+    animation-delay: 2s;
+}
+.tarjeta:nth-child(4) .imagen {
+    animation-delay: 3s;
+}
+.tarjeta:nth-of-type(odd){
+    transform: rotate(-10deg);
+}
+.tarjeta:nth-of-type(even) {
+    transform: rotate(25deg);
+}
+.tarjeta:nth-of-type(odd):hover {
+    transform: rotate(0);
+
+}
+.tarjeta:nth-of-type(even):hover {
+    transform: rotate(0);
 }
 .tarjeta h3{
 
