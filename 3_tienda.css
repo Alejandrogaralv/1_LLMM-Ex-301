@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    font-family: monospace;
+}
+#titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#tarjetas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10%;
+    padding-top: 10px;
+    gap: 10px;
+}
+.tarjeta{
+    min-width: 200px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+

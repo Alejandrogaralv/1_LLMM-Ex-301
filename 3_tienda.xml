@@ -6,5 +6,26 @@
     <title>Tienda Online</title>
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
-    
+    <productos>
+        <producto>
+            <nombre>Platano</nombre>
+            <descripcion>Es amarillo y alargado</descripcion>
+            <precio>1€</precio>
+        </producto>
+        <producto>
+            <nombre>Manzana</nombre>
+            <descripcion>Las hay amarillas rojas y verdes</descripcion>
+            <precio>2€</precio>
+        </producto>
+        <producto>
+            <nombre>Limón</nombre>
+            <descripcion>Es amarillo ovalado y muy ácido</descripcion>
+            <precio>3€</precio>
+        </producto>
+        <producto>
+            <nombre>Naranja</nombre>
+            <descripcion>Es de color naranja, redonda y no tan ácida como el Limón</descripcion>
+            <precio>2€</precio>
+        </producto>
+    </productos>
 </tienda>

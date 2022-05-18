@@ -34,6 +34,7 @@ body{
 }
 .tarjeta:hover .imagen{
     background-color: transparent;
+    background-size: cover;
     background-image:url(./0_recursos/1_good-old-rick.gif);
 }
 .tarjeta h3{
