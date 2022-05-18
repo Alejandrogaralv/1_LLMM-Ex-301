@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reloj{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+  
+}
+#segundos{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+   
+    
+    animation: reloj 60s infinite;
+    animation-timing-function: linear;
+    
+}
+#minutos{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    
+    
+    animation: reloj 3600s infinite;
+    animation-timing-function: linear;
+}
+#horas{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+
+    animation: reloj 86400s infinite;
+    animation-timing-function: linear;
+}
+.aguja{
+    height:50% ;
+    width: 50%;
+    border-right: 1px solid black;
+}
+@keyframes reloj{
+    0%{
+        transform: rotate(0);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

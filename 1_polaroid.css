@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 255, 158);
+}
+#contenedorTarjetas{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.tarjeta{
+    background-color: white;
+    width: 200px;
+    padding: 12px;
+    border: 1px solid black;
+    
+}
+.imagen{
+    height: 100px;
+    width: auto;
+    background-color: red;
+    animation: color 4.5s infinite;
+    animation-timing-function: linear;
+}
+.tarjeta:hover{
+    transform: scale(1.2);
+
+}
+.tarjeta:hover .imagen{
+    background-color: transparent;
+    background-image:url(./0_recursos/1_good-old-rick.gif);
+}
+.tarjeta h3{
+
+    padding: 20px;
+}
+
+@keyframes color {
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: orange;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+}
